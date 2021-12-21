@@ -283,24 +283,28 @@ body {
 @media screen and (max-height: 1000px) {
   .six .hat {
     left: 45%;
+    transform: rotate(320deg)
   }
 }
 
 @media screen and (max-height: 800px) {
   .six .hat {
     left: 42%;
+    transform: rotate(320deg)
   }
 }
 
 @media screen and (max-height: 700px) {
   .six .hat {
     left: 37%;
+    transform: rotate(320deg)
   }
 }
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
     left: 37%;
+    transform: rotate(320deg)
   }
 }
 
@@ -329,6 +333,7 @@ body {
   .six .hat {
     width: 60px;
     top: -40px;
+    transform: rotate(320deg)
   }
 
   .wish-hbd {
