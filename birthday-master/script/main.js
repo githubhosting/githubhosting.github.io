@@ -59,7 +59,7 @@ const animationTimeline = () => {
   tl.to(".container", 0.1, {
     visibility: "visible",
   })
-    .from(".one", 0.7, {
+    .from(".one", 0.9, {
       opacity: 0,
       y: 10,
     })
@@ -83,7 +83,7 @@ const animationTimeline = () => {
         opacity: 0,
         y: 10,
       },
-      "+=1"
+      "-=1"
     )
     .from(".three", 0.7, {
       opacity: 0,
@@ -113,11 +113,11 @@ const animationTimeline = () => {
       },
       "+=2"
     )
-    .from(".four", 0.7, {
+    .from(".four", 1, {
       scale: 0.2,
       opacity: 0,
     })
-    .from(".fake-btn", 0.3, {
+    .from(".fake-btn", 0.4, {
       scale: 0.2,
       opacity: 0,
     })
@@ -146,19 +146,19 @@ const animationTimeline = () => {
     .to(".idea-1", 0.7, ideaTextTransLeave, "+=2")
     .from(".idea-2", 0.7, ideaTextTrans)
     .to(".idea-2", 0.7, ideaTextTransLeave, "+=2")
-    .from(".idea-3", 0.7, ideaTextTrans)
+    .from(".idea-3", 1, ideaTextTrans)
     .to(".idea-3 strong", 0.5, {
       scale: 1.2,
       x: 10,
       backgroundColor: "rgb(21, 161, 237)",
       color: "#fff",
     })
-    .to(".idea-3", 0.7, ideaTextTransLeave, "+=1.5")
-    .from(".idea-4", 0.7, ideaTextTrans)
-    .to(".idea-4", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".idea-3", 0.9, ideaTextTransLeave, "+=1.5")
+    .from(".idea-4", 3, ideaTextTrans)
+    .to(".idea-4", 1, ideaTextTransLeave, "+=1.5")
     .from(
       ".idea-5",
-      0.7,
+      0.9,
       {
         rotationX: 15,
         rotationZ: -10,
@@ -171,7 +171,7 @@ const animationTimeline = () => {
     )
     .to(
       ".idea-5 .smiley",
-      0.7,
+      0.9,
       {
         rotation: 90,
         x: 8,
